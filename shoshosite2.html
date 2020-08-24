@@ -1,0 +1,71 @@
+<html>
+<script> var tab = 2 </script>
+<link rel="stylesheet" href="shoshositestyle.css"/>
+<head>
+  <title>AboutShoshanna</title>
+</head>
+<!-- <body onload="playAudio()"></body> -->
+<body onload = "hidedropdn">
+<div class="tab">
+  <button id=tabtab class="tablinks" onclick="location.href='shoshosite.html'">Home</button>
+  <button id=tabtab class="tablinks" onmouseout="setTimeout(hidedropdn, 800)" onmouseover="showdropdn()">About Me</button>
+
+    <div id="dropAbout" class="dropdown">
+      <button class="dropdown" onclick="location.href='shoshosite2.html'">General</button>
+      <button class="dropdown" onclick="location.href='shoshosite22.html'">Activities</button>
+    </div>
+
+  <button id=tabtab class="tablinks" onclick="location.href='shoshosite3.html'">What I've Done</button>
+</div>
+
+
+<!--General Tab-->
+<div class="General">
+  <h2>Education</h2>
+  <div id="Classes">
+    <p>I am a student at Naperville Central High School</p>
+    <p>where I have taken and plan to take many classes including...</p>
+      <ul>
+        <li>AP Physics 1</li>
+        <li>AP Computer Science</li>
+        <li>AP Calculus BC</li>
+        <li>Multivariable Calculus</li>
+        <li>AP Chemistry</li>
+        <li>AP Literature and Composition</li>
+        <li>AP Chinese Language and Culture</li>
+      </ul>
+  </div>
+  <div id="Summary">
+    <h2>About Me Summary</h2>
+    <p>Hello, I'm a senior at Naperville Central High School</p>
+    <p>and interested in computer science. I like math, science,</p>
+    <p>and programming.Outside of school, I enjoy being a part</p>
+    <p>of my school's cross country, speech, and science</p>
+    <p>olympiad teams.</p>
+    <p></p>
+    <p>Currently, I am involved in the Chicago Girls Who Code</p>
+    <p>Summer Immersion Program at Bank of America where I've</p>
+    <p>learned Python, some C, HTML, JavaScript, and CSS. I</p>
+    <p>look forward to continuing to expand my knowledge of</p>
+    <p>computer science and related subjects in my senior year</p>
+    <p>of high school and a four year university in fall 2019. </p>
+  </div>
+  <div id="Hobbies">
+    <h2>My hobbies are...</h2>
+    <ul>
+      <li>Staying updated on current events</li>
+      <li>Coding</li>
+      <li>Having fun with friends</li>
+      <li>Reading (especially fantasy)</li>
+      <li>Writing short stories and poetry</li>
+      <li>Playing with my dog</li>
+      <li>Long walks (with my dog)</li>
+      <li>Staying fit and healthy</li>
+    </ul>
+  </div>
+</div>
+<script src="shoshositejs.js"></script>
+
+
+</body>
+</html>

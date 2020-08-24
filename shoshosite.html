@@ -1,0 +1,70 @@
+<html>
+<script> var tab = 1 </script>
+<link rel="stylesheet" href="shoshositestyle.css"/>
+<head>
+  <title>AboutShoshanna</title>
+</head>
+<body onload = "currentSlide(1)">
+<div class="tab">
+  <button id=tabtab class="tablinks" onclick="location.href='shoshosite.html'">Home</button>
+  <button id=tabtab class="tablinks" onload="hidedropdn()" onmouseout="setTimeout(hidedropdn, 800)" onmouseover="showdropdn()">About Me</button>
+
+    <div id="dropAbout" class="dropdown">
+      <button class="dropdown" onclick="location.href='shoshosite2.html'">General</button>
+      <button class="dropdown" onclick="location.href='shoshosite22.html'">Activities</button>
+    </div>
+
+  <button id=tabtab class="tablinks" onclick="location.href='shoshosite3.html'">What I've Done</button>
+</div>
+
+<script src="shoshositejs.js"></script>
+<center>
+  <h2>Hello, my name is Shoshanna</h2>
+  <h3>And this is my website.</h3>
+</center>
+<p></p>
+<div class="image">
+<center>
+
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="Shoshanna.JPG" alt="a tall girl in a suit" style="width:100%">
+    <div class="text">This is a picture of me.</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="puppy.JPG" alt="a black and tan puppy" style="width:100%">
+    <div class="text">This is my dog, Zucchini.</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="dog.JPG" alt="another picture of a black and tan dog" style="width:100%">
+    <div class="text">But she goes by Zukie.</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <!--<p></p>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<br>-->
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+</center>
+
+<a href="API's/maps.html">My Maps API</a>
+</body>
+</html>
