@@ -3,3 +3,13 @@ ShoshannaSiteStyle.css
 css style for ShoshannaSite
 August 24, 2020
 */
+
+div.recent-projects {
+  height: 300px;
+  overflow: auto;
+}
+
+img.carousel {
+  height: 500px;
+
+}
