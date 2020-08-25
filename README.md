@@ -1,4 +1,4 @@
-# ShoshannaSite
+# sfperchanok.github.io
 
 Personal website about me (Shoshanna Perchanok)!
 
