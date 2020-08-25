@@ -1,3 +1,6 @@
+// Work In Progress
+// The hope is we can have a lists of the gists we want here and automatically add them
+
 // list of gist javascript links ordered from most to least recent
 var gist_links =
   ["https://gist.github.com/sfperchanok/a53dc7138b0c5cc903587b4d95b2adb5.js",
@@ -23,7 +26,7 @@ for (link in gist_links) {
 function include(file) {
   var script  = document.createElement('script');
   var div = document.createElement('div');
-  //div.className = "recent-projects";
+  div.className = "recent-projects";
   script.src  = file;
   div.appendChild(script);
   const jumbotron = document.getElementsByClassName("jumbotron")[0];
